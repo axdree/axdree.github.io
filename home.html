@@ -18,7 +18,9 @@
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/404-NOT-FOUND-animated.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
 </head>
 
 <body>
@@ -46,19 +48,21 @@
     </header>
     <section class="portfolio-block photography">
         <div class="container">
-            <div class="row no-gutters">
-                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="certificates"><img class="img-fluid image" src="assets/img/nature/image5.jpg"></a></div>
-                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="certificates"><img class="img-fluid image" src="assets/img/nature/image2.jpg"></a></div>
-                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="certificates"><img class="img-fluid image" src="assets/img/tech/image4.jpg"></a></div>
+            <div class="row no-gutters justify-content-center align-items-center">
+                <div class="col-md-6 col-lg-4 item zoom-on-hover" style="background: transparent;"><a href="certificates"><img data-bs-hover-animate="pulse" src="assets/img/certificates/ceh.jpg"></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover" style="background: transparent;"><a href="certificates"><img src="assets/img/certificates/cddc2020.jpg"></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover" style="background: transparent;"><a href="certificates"><img src="assets/img/certificates/nse2.jpg"></a></div>
             </div>
         </div>
     </section>
     <section class="portfolio-block call-to-action border-bottom">
-        <p class="text-center">This site is still a work in progress.</p>
-        <div class="container">
-            <div class="d-flex justify-content-center align-items-center content"><a class="btn btn-outline-primary btn-lg" role="button" href="portfolio">Find out More!</a>
-                <h3></h3>
+        <div class="row row-cols-1 justify-content-center align-items-center">
+            <div class="col">
+                <p class="text-center">Click the Images to see my Certificates<br>and the button below to see my Portfolio!</p>
             </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-auto"><a class="btn btn-outline-primary btn-lg" role="button" href="portfolio">View my Portfolio</a></div>
         </div>
     </section>
     <section class="portfolio-block skills">
@@ -72,7 +76,7 @@
                         <div class="card-header bg-transparent border-0"><i class="icon ion-social-python" style="background: #306998;color: #ffd43b;"></i></div>
                         <div class="card-body">
                             <h3 class="card-title">Python Programming</h3>
-                            <p class="card-text">Self-learned python during my secondary school days and wrote multiple scripts for work which requires connections to APIs. Some notable modules I have experience with are Pandas and Tkinter.</p>
+                            <p class="card-text">Self-learned python during my secondary school days and wrote multiple scripts for work which requires connections to APIs. Some notable modules I have experience with are Pandas, Tkinter and discord.py.</p>
                         </div>
                     </div>
                 </div>
@@ -107,7 +111,7 @@
                 <div class="col-md-12 col-lg-5">
                     <div class="portfolio-laptop-mockup">
                         <div class="screen">
-                            <div class="screen-content" style="background-image:url(&quot;assets/img/tech/image6.png&quot;);"></div>
+                            <div class="screen-content" style="background-image:url(&quot;tech/image6.png&quot;);"></div>
                         </div>
                         <div class="keyboard"></div>
                     </div>
@@ -126,6 +130,7 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
 </body>
