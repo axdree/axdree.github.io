@@ -1,0 +1,9 @@
+User-Agent: *
+Allow: /home.html
+Disallow: /certificates.html
+Disallow: /contact.html
+Disallow: /abuseipdb-verification.html
+Disallow: /aipdbbadge.html
+Disallow: /404.html
+
+Sitemap: sitemap.xml
