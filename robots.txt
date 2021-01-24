@@ -1,6 +1,7 @@
 User-Agent: *
 Allow: /home.html
 Disallow: /certificates.html
+Disallow: /portfolio.html
 Disallow: /contact.html
 Disallow: /abuseipdb-verification.html
 Disallow: /aipdbbadge.html
