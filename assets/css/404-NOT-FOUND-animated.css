@@ -159,3 +159,7 @@ img {
   box-sizing: border-box;
 }
 
+.caption.v-middle {
+  color: #1f1f1f;
+}
+
