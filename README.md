@@ -1,3 +1,3 @@
 # lightcoxa.github.io
-Andre's E-Portfolio[andreyap.com]
+[Andre's E-Portfolio](andreyap.com)
 
