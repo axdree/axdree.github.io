@@ -1,2 +1,3 @@
 # lightcoxa.github.io
-this website is still a work in progress
+Andre's E-Portfolio
+andreyap.com
