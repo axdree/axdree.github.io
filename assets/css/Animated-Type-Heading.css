@@ -3,7 +3,7 @@
     display: inline-block;
     position: relative;
     text-align: left;
-    font-size: 32px;
+    font-size: 7vw;
     color: #1f1f1f;
     font-family: 'ABeeZee';
   }
@@ -21,7 +21,7 @@
 }
 
 .cd-words-wrapper b {
-  display: inline-block;
+  display: inline;
   position: absolute;
   white-space: nowrap;
   left: 0;
@@ -30,8 +30,9 @@
 
 @media (max-width: 576px) {
   .blc {
-    font-size: 28px;
+    font-size: 7.5vw;
     font-family: 'ABeeZee';
+    vertical-align: middle;
     color: #1f1f1f;
   }
 }
@@ -53,9 +54,18 @@
   padding: .2em 0;
 }
 
-.cd-headline.clip .cd-words-wrapper {
-  overflow: hidden;
-  vertical-align: top;
+@media (max-width: 576px) {
+  .cd-headline.clip .cd-words-wrapper {
+    overflow: hidden;
+    vertical-align: middle;
+  }
+}
+
+@media (min-width: 577px) {
+  .cd-headline.clip .cd-words-wrapper {
+    overflow: hidden;
+    vertical-align: top;
+  }
 }
 
 .cd-headline.clip b {
@@ -69,7 +79,8 @@
 
 @media (max-width: 576px) {
   .blinking {
-    font-size: 28px;
+    font-size: 6.5vw;
+    vertical-align: middle;
     animation: blinkingText 1.2s infinite;
     color: #1f1f1f;
   }
