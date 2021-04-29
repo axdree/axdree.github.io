@@ -8,3 +8,5 @@ Disallow: /aipdbbadge.html
 Disallow: /404.html
 
 Sitemap: sitemap.xml
+
+#shoo i know what you're trying to do here >:(
