@@ -1,4 +1,6 @@
 @charset "utf-8";
+
+/*import font*/
 @font-face {
     font-family: ABeeZee;
     src: url(/assets/fonts/ABeeZee-Regular.ttf);
@@ -126,7 +128,7 @@ header.scrolling #navname {
     padding: 5px;
 }
 
-/*Change all Font Awsome icons color*/
+/*Change all Font Awsome icons color and size*/
 .fa, .fas{
     color: #1f1f1f;
     font-size: 28px;

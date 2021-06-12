@@ -16,7 +16,7 @@
     <body>
         <!--navbar-->
         <header>
-            <p id="navname">Andre</p>
+            <h1 id="navname">Andre</h1>
             <nav>
                 <ul class="navbar">
                     <li><a href="index.html"> About Me</a></li>
@@ -28,12 +28,13 @@
             </nav>
         </header>
 
+        <!--page header-->
         <div data-aos="fade-down" data-aos-duration="500" data-aos-delay="50" class="pageheader">
             <h1>Feedback</h1>
         </div>
 
         <!--feedback form-->
-        <section>
+        <main>
             <div class="feedback-container">
                 <!--form action not needed for submission-->
                 <form action="#" method="POST"> 
@@ -41,6 +42,7 @@
                     <div class="form-group">
                         <label for="title">Title: </label>
                         <select id="title" name="title" required>
+                            <!--disabled selected so default but cant be selected-->
                             <option value="" disabled selected>Please select Title</option>
                             <option value="mr">Mr.</option>
                             <option value="ms">Ms.</option>
@@ -82,7 +84,7 @@
                     <input type="submit" value="Submit">
                 </form>
             </div>
-        </section>
+        </main>
 
         <!--footer-->
         <footer class="pagefooter">
@@ -92,7 +94,7 @@
                 <a href="https://www.linkedin.com/in/andreyapjx/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
                 <a href="https://github.com/lightcoxa/" target="_blank"><i class="fa fa-github"></i></a>
             </div>
-            <p id="footertext2">© Andre's FED CA1 Submission. 2021.</p>
+            <p id="footertext2">Andre's FED CA1 Submission. 2021.</p>
         </footer>
         <!--Submit Form-->
         <script src="assets/js/formsubmit.js"></script>

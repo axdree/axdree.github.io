@@ -1,13 +1,13 @@
 @charset "utf-8";
-/*content styling*/
 
+/*content styling*/
 .introheader{
     
     height: 100vh;
     width: 100%;
 }
 
-.introheader h1{
+.introheader h2{
     text-align: center;
     font-size:60px;
     padding-top: 5em;
