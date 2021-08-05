@@ -7,9 +7,7 @@
 }
 
 .introheader > .container-fluid {
-    /* Splitting top and bottom as using padding: 26vh 0vh 38vh causes scroll on y axis */
-    padding-top: 26vh;
-    padding-bottom: 38vh;
+    padding: 26vh 0px 38vh
 }
 
 #about-scroll{
@@ -42,10 +40,6 @@
 
 .about-header{
     font-size: 3em;
-    font-weight: bold;
-}
-
-section > .row-fluid > h2 {
     font-weight: bold;
 }
 
