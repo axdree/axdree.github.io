@@ -49,10 +49,6 @@
     box-shadow: 0px 0px 25px #00000040; /*0 offset 15px blur radius*/
 }
 
-.aboutme-box > h2 {
-    font-weight: bold;
-}
-
 .aboutme-box p{
     font-size: 18px;
 }
@@ -162,16 +158,9 @@
     box-shadow: 0px 0px 30px #ffffff30; /*0 offset 30px blur radius*/
 }
 
-#lightboxModal .lightboxModal-close .fas, #lightboxModal .lightboxModal-next .fas, #lightboxModal .lightboxModal-prev .fas{
-    /* styling lightboxModal control buttons */
-    color:#fff;
-    font-size:40px;
-    position:absolute;
-}
-
-#lightboxModal .lightboxModal-close .fas{ top:25px;right:40px;transition: all 0.3s ease 0s; }
-#lightboxModal .lightboxModal-next .fas{ top:45%;right:40px;transition: all 0.3s ease 0s; }
-#lightboxModal .lightboxModal-prev .fas{ top:45%;left:40px;transition: all 0.3s ease 0s; }
+#lightboxModal .lightboxModal-close .fas{ position:absolute;top:25px;right:40px;transition: all 0.3s ease 0s;font-size:40px;color:#fff; }
+#lightboxModal .lightboxModal-next .fas{ position:absolute;top:45%;right:40px;transition: all 0.3s ease 0s;font-size:40px;color:#fff; }
+#lightboxModal .lightboxModal-prev .fas{ position:absolute;top:45%;left:40px;transition: all 0.3s ease 0s;font-size:40px;color:#fff; }
 
 #lightboxModal .lightboxModal-close .fas:hover { color:#84c6f1;transform: scale(1.25);transition: all 0.3s ease 0s;}
 #lightboxModal .lightboxModal-next .fas:hover { color:#84c6f1;transform: scale(1.25);transition: all 0.3s ease 0s; }
