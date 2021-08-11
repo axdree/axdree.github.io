@@ -39,7 +39,7 @@
         </header>
 
         <!-- Scroll to top button -->
-        <button type="button" id="scroll-top" class="btn p-sm-3 p-1" data-toggle="tooltip" data-placement="top" title="Scroll to Top"><i id="scroll-up-arrow" class="fas fa-chevron-up"></i></button>
+        <button type="button" id="scroll-top" class="btn p-sm-3 p-2" data-toggle="tooltip" data-placement="top" title="Scroll to Top"><i id="scroll-up-arrow" class="fas fa-chevron-up"></i></button>
 
         <!--page header-->
         <div class="container-fluid my-5 pt-5">
@@ -85,6 +85,41 @@
                     </figure>
                 </div>
             </section>
+
+            <h2 data-aos="fade-up" data-aos-duration="200" data-aos-delay="100" class="font-weight-bold text-center py-5" id="cyber-tools-header">Cyber Security Tools Showcase</h2>
+            <div class="container px-2">
+                <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="100" class="container text-center pt-4 pb-2 px-md-5 px-2" id="cyber-tools">
+                    <p>All of these tools are created by me with client-side JavaScript so they are safe to use! :)</p>
+
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="container cyber-container my-5 py-5">
+                        <h3 class="font-weight-bold">Password Strength Checker</h3>
+                        <form action="#" id="passStrength-form"> 
+                            <label for="password">Enter Password:</label>
+                            <input class="form-control mb-2 text-center" type="password" name="password" id="password">
+                        </form>
+                        <div id="pw-strength" class=""></div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="container cyber-container my-5 py-5">
+                        <h3 class="font-weight-bold">Strong Password Generator</h3>
+                        <form action="#" id="passGen-form"> 
+                            <label for="password-gen">Click the button to Generate a strong password!</label>
+                            <input class="form-control text-center" type="text" name="password-gen" id="password-gen" value="" readonly>
+                            <button type="button" id="passwordGenBTN" class="btn mt-2 p-2 font-weight-bold">Generate</button>
+                        </form> 
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="container cyber-container my-5 py-5">
+                        <h3 class="font-weight-bold">Email Breach Checker</h3>
+                        <form action="#" id="breach-form"> 
+                            <label for="breachEmail">Enter email to check if it was part of a data breach:</label>
+                            <input type="email" name="email" id="breachEmail" class="form-control" required>
+                            <input type="submit" id="breachBTN" class="btn mt-2 p-2 font-weight-bold" value="Check Email">
+                        </form>
+                        <div id="breach-check"></div>
+                    </div>
+                </div>
+            </div>
             
             <!-- career prospects section -->
             <section class="container-fluid my-5 p-5">
@@ -178,6 +213,8 @@
         <script src="https://kit.fontawesome.com/1f1c3e639c.js" crossorigin="anonymous"></script>
         <!-- scroll button -->
         <script src="assets/js/scrollbuttons.js"></script>
+        <!-- Password strength checker js -->
+        <script src="assets/js/cybertools.js"></script>
     </body>
 
 </html>

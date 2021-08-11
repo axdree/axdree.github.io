@@ -15,6 +15,6 @@ $("#feedback-form").submit(function(e){
 // Leaving as alert only as form posting not requirement
 $("#submit").click(function(){
   if(!alert('Form Submitted Successfully!\nClick Ok to Return to the Home Page!')){
-    window.location.replace("../../index.html");
+    window.location.replace("index.html");
   }
 })

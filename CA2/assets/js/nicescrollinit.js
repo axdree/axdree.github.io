@@ -11,7 +11,7 @@ $(document).ready(function() {
         hwacceleration: true,
         smoothscroll: true,
         hidecursordelay:400,
-        zindex: 9999999
+        zindex: 9999
     });
 });
 

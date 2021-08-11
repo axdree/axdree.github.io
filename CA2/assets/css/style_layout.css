@@ -34,28 +34,7 @@ header{
 
 .navbar{
     transition: 0.5s;
-}
-
-/* Scroll to top button */
-#scroll-top{
-    position: fixed;
-    bottom: 52px;
-    right: 70px;
-    z-index: 99;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: none;
-    border-radius: 20px;
-    transition: all 0.3s ease 0s;
-}
-
-#scroll-up-arrow{
-    color: #fff;
-}
-
-#scroll-top:hover{
-    transform: scale(1.2);
-    background-color: rgba(132, 198, 241, 0.5);
-    transition: all 0.3s ease 0s;
+    z-index: 10000;
 }
 
 /* Reduce size of button for mobile */
@@ -91,6 +70,29 @@ header{
     transform: scale(1.17);
 }
 /*End of header/navbar styles*/
+
+/* Scroll to top button */
+#scroll-top{
+    position: fixed;
+    bottom: 45px;
+    right: 45px;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+#scroll-up-arrow{
+    color: #fff;
+}
+
+#scroll-top:hover{
+    transform: scale(1.2);
+    background-color: rgba(132, 198, 241, 0.5);
+    transition: all 0.3s ease 0s;
+}
+
 
 /*for all page headers*/
 .pageheader{

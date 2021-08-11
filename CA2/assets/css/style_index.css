@@ -114,21 +114,20 @@
 
 /* lightbox styles */
 
-#lightboxModal {
+#lightboxModal{
     /* position fixed wont move when scrolled */
     position:fixed;
     /* align lightboxModal to top left of window */
     top:0;
     left:0;
     /* ensure its in front */
-    z-index:9999;
+    z-index:999999;
     /* hide by default */
     display:none;
     opacity:0;
-    transition: all 0.5s ease 0s;
 }
 
-#lightboxModal.open {
+#lightboxModal.open{
     display:flex;
     /* show lightboxModal */
     opacity:1;
@@ -136,10 +135,9 @@
     width:100%;
     height:100%;
     background:rgba(0,0,0,0.8);
-    transition: all 0.5s ease 0s;
 }
 
-#lightboxModal figure {
+#lightboxModal figure{
     /* position fixed wont move when scrolled */
     position: fixed;
     /* Center item in middle of page horizontally and vertically */

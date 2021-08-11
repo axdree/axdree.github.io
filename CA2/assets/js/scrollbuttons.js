@@ -1,10 +1,11 @@
 // jQuery
 // When about-scroll button is clicked
+
 $("#about-scroll").click(function() {
     // 700ms scroll to about-header
     $('html').animate({
-        // get cords for top of #about-header
-        scrollTop: $("#about-header").offset().top
+        // get cords for top of #about-scroll-header, offset returns top and left values
+        scrollTop: $("#about-scroll-header").offset().top
     }, 700);
 });
 
