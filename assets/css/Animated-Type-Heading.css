@@ -26,6 +26,7 @@
   white-space: nowrap;
   left: 0;
   top: 0;
+  overflow: hidden;
 }
 
 @media (max-width: 576px) {
